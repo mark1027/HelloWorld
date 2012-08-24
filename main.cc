@@ -6,5 +6,9 @@ int main()
 {
 
  	cout << "How are you" << endl;
-	return 0;
+	return 1;
+
+
+
+	cout << "Why is this not outputting?" << endl;
 }
