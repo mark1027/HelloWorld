@@ -10,8 +10,8 @@ int main()
  	cout << "Input your favorite number" << endl;
 	cin >> userNumber;
 
-
-	if (userNumber == 7)
+	const int CORRECT_NUMBER = 7; 
+	if (userNumber == CORRECT_NUMBER)
 	{
 		cout << "That's my favorite number too!" << end;
 	}
